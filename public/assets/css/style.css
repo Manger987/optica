@@ -634,6 +634,11 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+.services .icon i img {
+  width:48px;
+  height:48px;
+}
+
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
