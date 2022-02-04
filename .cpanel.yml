@@ -1,7 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/opticafu/public_html/
-    - /bin/cp public/ $DEPLOYPATH
-    - /bin/cp -R public $DEPLOYPATH
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/opticafu/public_html
+    - /bin/cp -r /home/opticafu/repositories/opticaFuturo/* $DEPLOYPATH
